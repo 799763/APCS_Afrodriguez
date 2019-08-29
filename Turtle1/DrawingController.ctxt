@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=DrawingController
+comment0.text=\r\n\ Any\ class\ that\ wants\ to\ draw\ something\ on\ a\ DrawingCanvas\r\n\ must\ implement\ this\ interface.\ The\ redraw\ method\ is\ called\r\n\ the\ DrawingCanvase\ whenever\ the\ canvas\ needs\ to\ be\ repainted.\r\n\ Use\ the\ setCanvas\ method\ to\ connect\ the\ DrawingCanvas\ object\r\n\ to\ the\ object\ that\ implements\ this\ interface.\ \r\n\ \r\n\ Date\ Modified\:\ Feb\ 24,\ 2009\ (Cosmetic\ changes)\r\n\ \r\n\ @author\ Dr\ Caffeine\r\n\ \r\n
+comment1.params=g
+comment1.target=void\ redraw(java.awt.Graphics)
+comment2.params=canvas
+comment2.target=void\ setCanvas(DrawingCanvas)
+numComments=3

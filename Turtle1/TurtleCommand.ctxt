@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TurtleCommand
+comment0.text=\r\n\ Superclass\ of\ different\ types\ of\ turtle\ commands.\r\n\ Each\ command\ correspond\ to\ a\ Turtle\ operation\ such\ as\ move\ and\ turn.\r\n\ \ \r\n\ Date\ Modified\:\ February,\ 2009\r\n\r\n\ @author\ Dr\ Caffeine\ \r\n
+comment1.params=
+comment1.target=void\ execute()
+comment2.params=t
+comment2.target=void\ addOwner(Turtle)
+numComments=3

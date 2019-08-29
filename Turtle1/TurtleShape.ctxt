@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TurtleShape
+comment0.text=\r\n\ A\ class\ responsible\ for\ maintaining\ and\ manipulating\ the\ turtle\ shape.\r\n\ \r\n\ Modified\:\ Feb\ 24,\ 2009\r\n\ \r\n\ @author\ Dr\ Caffeine\r\n
+comment1.params=
+comment1.target=TurtleShape()
+comment1.text=\r\n\ A\ default\ constructor\ for\ a\ standard\ turtle\ shape.\r\n
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment2.text=\r\n\ Returns\ the\ current\ fill\ color\ of\ this\ body\ shape.\r\n\r\n\ @return\ the\ current\ fill\ color\ of\ this\ body\ shape\r\n\r\n
+comment3.params=turtlePosition\ turtleOrientation
+comment3.target=java.awt.Polygon\ getShape(Position,\ double)
+comment3.text=\r\n\ Computes\ a\ polygon\ that\ represents\ the\ turtle's\ shape.\r\n\ \r\n\ @param\ turtlePosition\ \ \ \ The\ turtle's\ current\ position\r\n\ @param\ turtleOrientation\ The\ turtle's\ orientation\ in\ radian\r\n\ @return\ A\ polygon\ for\ the\ turtle\ shape\ specified\ in\ the\ global\ coordinate\r\n\ system.\r\n
+comment4.params=points
+comment4.target=void\ setRefShape(java.awt.Point[])
+comment4.text=\r\n\ Sets\ the\ reference\ body\ shape\ for\ this\ turtle\ shape.\ Define\ the\ shape\r\n\ relative\ to\ \ (0,0),\ the\ pen\ point.\ \r\n\r\n\ @param\ points\ An\ array\ of\ java.awt.Point\ objects\r\n
+comment5.params=color
+comment5.target=void\ setColor(java.awt.Color)
+comment5.text=\r\n\ Sets\ the\ fill\ color\ for\ this\ body\ shape\r\n\r\n\ @param\ color\ \ a\ new\ Color\ for\ this\ body\ shape\r\n
+comment6.params=turtlePosition\ turtleOrientation\ refPoint
+comment6.target=Position\ compose(Position,\ double,\ java.awt.Point)
+comment6.text=\r\n\ Compute\ a\ position\ of\ reference\ point\ in\ the\ global\ coordinate\ system.\r\n\r\n\ @param\ turtlePosition\ \ \ \ \ the\ turtle's\ current\ position\r\n\ @param\ turtleOrientation\ \ the\ turtle's\ current\ orientation\r\n\ @param\ refPoint\ \ \ \ \ \ \ \ \ \ \ the\ point\ in\ the\ local\ coordinate\ system\r\n\r\n\ @return\ A\ position\ of\ point\ in\ the\ global\ coordinate\ system\r\n
+comment7.params=
+comment7.target=void\ initShape()
+comment7.text=\r\n\ Initializes\ the\ default\ shape\ (array)\ for\ the\ turtle.\ \r\n\ Elements\ in\ the\ array\ provide\ polygon\ coordinate\ points\ in\ \r\n\ pixels\ relative\ to\ the\ turtle's\ position\ which\ is\ (0,0)\ in\ the\r\n\ local\ coordinate\ system.\r\n
+numComments=8

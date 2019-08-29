@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\r\n\ The\ Position\ object\ represent\ a\ point\ in\ the\r\n\ coordinate\ system.\ We\ cannot\ use\ java.awt.Point\r\n\ because\ we\ need\ double\ values\ for\ x\ and\ y.\r\n\ \r\n\ Date\ Modified\:\ Feb\ 24,\ 2009\ (just\ rearranging\ braces\ to\ conform\ to\ style\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ guide)\r\n\ \r\n\ @author\ Dr\ Caffeine\r\n\ \r\n
+comment1.params=
+comment1.target=Position()
+comment2.params=x\ y
+comment2.target=Position(double,\ double)
+numComments=3
