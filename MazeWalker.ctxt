@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=MazeWalker
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MazeWalker\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (3\ Sept.\ 2019)\r\n
-comment1.params=
-comment1.target=void\ run()
-comment2.params=maze\ mazeBot
-comment2.target=void\ walkMaze(Maze,\ MazeBot)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
