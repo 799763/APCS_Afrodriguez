@@ -8,14 +8,22 @@
 public class Person
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private String fName = "";
+    private String mName = "";
+    private String lName = "";
+    private String fullName = "";
+    
+    
     /**
      * Constructor for objects of class Person
      */
     public Person()
     {
-        String fName, mName, lName;
+        fName = "";
+        mName = "";
+        lName = "";
+        fullName = "";
+        //String fName, mName, lName;
     }
     //RunnerClass so = new RunnerClass();
     /**
@@ -31,9 +39,10 @@ public class Person
         if (fullName.indexOf(",") == -1){
           int si = str.indexOf(",");
           fName = str.substring(0, si);
-          fullName = fullName.substring();
+          fullName = fullName.substring(si);
         }
         return fullName;
+        
     }
 }
 
