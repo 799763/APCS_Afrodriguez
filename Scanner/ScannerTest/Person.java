@@ -19,10 +19,7 @@ public class Person
      */
     public Person()
     {
-        fName = "";
-        mName = "";
-        lName = "";
-        fullName = "";
+       
         //String fName, mName, lName;
     }
     //RunnerClass so = new RunnerClass();
@@ -32,13 +29,13 @@ public class Person
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public String parseName(String fullName, String fName, String mName, String lName)
+    public String parseName()
     {
         // put your code here
-        String str = "Bob Smith";
+        
         if (fullName.indexOf(",") == -1){
-          int si = str.indexOf(",");
-          fName = str.substring(0, si);
+          int si = fullName.indexOf(",");
+          fName = fullName.substring(0, si);
           fullName = fullName.substring(si);
         }
         return fullName;

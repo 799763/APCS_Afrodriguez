@@ -7,9 +7,8 @@ import java.util.Scanner;
  */
 public class Runner
 {
-    String fullName = "";
-    public static void main(){
-      
+    
+    public String fullName(){
       Scanner kb = new Scanner(System.in);
       String fullName = "";
       //  if(str1 == str2)
@@ -18,11 +17,7 @@ public class Runner
           fullName = kb.nextLine();
           System.out.println(fullName);
         }
-        
-        
-      //Runner so = new Runner();
-      //Runner po = new Runner();
-      
+      return fullName;
     }
 }
-//public String fullName (String[] args){
+//public String fullName (String[] args)
