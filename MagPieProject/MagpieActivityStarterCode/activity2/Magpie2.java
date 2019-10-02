@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package MagPieProject.MagpieActivityStarterCode.activity2;
+
+>>>>>>> 736c069ab7fa653eff856bc08d434971ec4a7c90
 /**
  * A program to carry on conversations with a human user.
  * This is the initial version that:  
@@ -76,6 +81,10 @@ public class Magpie2
 		{
 			response = "You don't say.";
 		}
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 736c069ab7fa653eff856bc08d434971ec4a7c90
 
 		return response;
 	}
