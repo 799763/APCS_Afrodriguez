@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 =======
-package MagPieProject.MagpieActivityStarterCode.activity2;
+package MagpieActivityStarterCode.activity2;
 
 >>>>>>> 736c069ab7fa653eff856bc08d434971ec4a7c90
 /**

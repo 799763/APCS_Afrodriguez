@@ -1,18 +1,15 @@
 #BlueJ package file
-dependency1.from=MagpieRunner2
-dependency1.to=Magpie2
-dependency1.type=UsesDependency
-objectbench.height=155
+objectbench.height=156
 objectbench.width=760
 package.divider.horizontal=0.6
-package.divider.vertical=0.676
-package.editor.height=331
+package.divider.vertical=0.674
+package.editor.height=330
 package.editor.width=670
 package.editor.x=20
 package.editor.y=73
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=1
+package.numDependencies=0
 package.numTargets=2
 package.showExtends=true
 package.showUses=true

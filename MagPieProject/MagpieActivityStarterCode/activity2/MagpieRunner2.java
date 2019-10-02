@@ -1,3 +1,5 @@
+package MagpieActivityStarterCode.activity2;
+
 <<<<<<< HEAD
 import java.util.Scanner;
 
