@@ -4,6 +4,7 @@ dependency1.to=Person
 dependency1.type=UsesDependency
 editor.fx.0.height=825
 editor.fx.0.width=1273
+<<<<<<< HEAD
 editor.fx.0.x=397
 editor.fx.0.y=47
 objectbench.height=219
@@ -12,12 +13,26 @@ package.divider.horizontal=0.6
 package.divider.vertical=0.6776034236804565
 package.editor.height=468
 package.editor.width=1256
+=======
+editor.fx.0.x=167
+editor.fx.0.y=23
+objectbench.height=233
+objectbench.width=1362
+package.divider.horizontal=0.6
+package.divider.vertical=0.676985195154778
+package.editor.height=496
+package.editor.width=1260
+>>>>>>> d4f87c34882c8d9ee060cd154247b02a21d44012
 package.editor.x=54
 package.editor.y=46
 package.frame.height=801
 package.frame.width=1386
 package.numDependencies=1
+<<<<<<< HEAD
 package.numTargets=2
+=======
+package.numTargets=3
+>>>>>>> d4f87c34882c8d9ee060cd154247b02a21d44012
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -37,6 +52,10 @@ target2.height=50
 target2.name=Person
 target2.showInterface=false
 target2.type=ClassTarget
+<<<<<<< HEAD
 target2.width=80
+=======
+target2.width=100
+>>>>>>> d4f87c34882c8d9ee060cd154247b02a21d44012
 target2.x=70
 target2.y=10

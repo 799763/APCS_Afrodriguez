@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=Person
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Person\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (926)\r\n
@@ -9,6 +10,18 @@ comment2.params=
 comment2.target=void\ parseName()
 comment2.text=\r\n\ 1.\ "Last,\ First\ Middle"\r\n\ 2.\ "Last,\ First"\r\n\ 3.\ "First\ middle\ Last"\r\n\ 4.\ "First\ Last"\r\n
 numComments=3
+=======
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Person\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (926)\r\n
+comment1.params=
+comment1.target=Person()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Person\r\n
+comment2.params=
+comment2.target=void\ parseName()
+comment2.text=\r\n\ 1.\ "Last,\ First\ Middle"\r\n\ 2.\ "Last,\ First"\r\n\ 3.\ "First\ middle\ Last"\r\n\ 4.\ "First\ Last"\r\n
+numComments=3
+>>>>>>> d4f87c34882c8d9ee060cd154247b02a21d44012
 =======
 #BlueJ class context
 comment0.target=Person
