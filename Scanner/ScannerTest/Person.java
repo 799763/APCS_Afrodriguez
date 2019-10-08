@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Person here.
  *
@@ -56,15 +55,9 @@ public class Person
             fName = fullName.substring(0, si);
           }
         }
-        fName = ("First Name " + fName);
-        mName = ("First Name " + mName);
-        lName = ("First Name " + lName);
-        fullName = (fName+mName+lName);
-        System.out.print(fullName);
+        System.out.println("First Name " + fName);
+        System.out.println("Middle Name " + mName);
+        System.out.println("Last Name " + lName);
+        System.out.println(fullName);
     }
 }
-
-//case of 3
-//fName = fullName.substring(0, si);
-//mName = fullName.substring(si+1, lsi);
-//lName = fullName.substring(lsi+1);
