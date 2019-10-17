@@ -1,22 +1,24 @@
-
+import java.util.*;
 /**
  * Write a description of class MMM here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Fernando Rodriguez)
+ * @version (1017)
  */
 public class MMM
 {
     // instance variables - replace the example below with your own
     private int x;
-    
     /**
      * Constructor for objects of class MMM
      */
     public MMM()
     {
         // initialise instance variables
-        x = 0;
+        ArrayList<Integer>words= new ArrayList();
+        mean();
+        median();
+        int mode[] = {-1, -1};
     }
 
     /**
@@ -30,10 +32,28 @@ public class MMM
         // put your code here
         int[] nums = new int[100];
         
-        
-        
-        
-        
         return x + y;
+    }
+    
+    public Integer mean(){
+        Integer result = 0; //Delete later on just here to get rid of red
+        
+        
+        
+        return result;
+    }
+    public Integer median(){
+        Integer result = 0; //Delete later on just here to get rid of red
+        
+        
+        
+        return result;
+    }
+    public Integer mode(){
+        Integer result = 0; //Delete later on just here to get rid of red
+        
+        
+        
+        return result;
     }
 }
