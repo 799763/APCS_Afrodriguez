@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Empty here.
+ * Write a description of class MMM here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Empty
+public class MMM
 {
     // instance variables - replace the example below with your own
     private int x;
-
+    
     /**
-     * Constructor for objects of class Empty
+     * Constructor for objects of class MMM
      */
-    public Empty()
+    public MMM()
     {
         // initialise instance variables
         x = 0;
@@ -28,6 +28,12 @@ public class Empty
     public int sampleMethod(int y)
     {
         // put your code here
+        int[] nums = new int[100];
+        
+        
+        
+        
+        
         return x + y;
     }
 }
