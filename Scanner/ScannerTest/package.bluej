@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ package file
 dependency1.from=PersonRunner
 dependency1.to=Person
@@ -47,3 +48,47 @@ target3.type=ClassTarget
 target3.width=80
 target3.x=220
 target3.y=280
+=======
+#BlueJ package file
+dependency1.from=Runner
+dependency1.to=Person
+dependency1.type=UsesDependency
+editor.fx.0.height=833
+editor.fx.0.width=1273
+editor.fx.0.x=558
+editor.fx.0.y=156
+objectbench.height=219
+objectbench.width=1346
+package.divider.horizontal=0.6
+package.divider.vertical=0.6776034236804565
+package.editor.height=468
+package.editor.width=1256
+package.editor.x=215
+package.editor.y=175
+package.frame.height=801
+package.frame.width=1386
+package.numDependencies=1
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+readme.height=58
+readme.name=@README
+readme.width=47
+readme.x=10
+readme.y=10
+target1.height=50
+target1.name=Runner
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=330
+target1.y=140
+target2.height=50
+target2.name=Person
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=80
+target2.x=70
+target2.y=10
+>>>>>>> 84b32ed4596699aab8134c21ea106366487c73ce

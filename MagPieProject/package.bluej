@@ -1,4 +1,11 @@
 #BlueJ package file
+<<<<<<< HEAD
+=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=140
+>>>>>>> 84b32ed4596699aab8134c21ea106366487c73ce
 objectbench.height=150
 objectbench.width=760
 package.divider.horizontal=0.6
@@ -13,6 +20,10 @@ package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
+<<<<<<< HEAD
+=======
+project.charset=windows-1252
+>>>>>>> 84b32ed4596699aab8134c21ea106366487c73ce
 readme.height=58
 readme.name=@README
 readme.width=47
@@ -22,5 +33,9 @@ target1.height=62
 target1.name=MagpieActivityStarterCode
 target1.type=PackageTarget
 target1.width=170
+<<<<<<< HEAD
 target1.x=10
+=======
+target1.x=20
+>>>>>>> 84b32ed4596699aab8134c21ea106366487c73ce
 target1.y=90
