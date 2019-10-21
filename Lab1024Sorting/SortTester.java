@@ -53,6 +53,9 @@ public class SortTester
           }
         }
       }
+      System.out.println(numList);
+      System.out.println("Number of swaps: " + swap);
+      System.out.println("Number of compares: " + comp);
     }
     public void selectSort(){
     

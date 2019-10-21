@@ -9,6 +9,5 @@ public class Runner
 {
     public static void main(){
       SortTester sortTester = new SortTester();
-    
     }
 }
