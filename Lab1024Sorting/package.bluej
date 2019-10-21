@@ -2,10 +2,10 @@
 dependency1.from=Runner
 dependency1.to=SortTester
 dependency1.type=UsesDependency
-editor.fx.0.height=996
-editor.fx.0.width=1023
-editor.fx.0.x=11
-editor.fx.0.y=81
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=140
 objectbench.height=155
 objectbench.width=760
 package.divider.horizontal=0.6
