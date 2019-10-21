@@ -27,7 +27,6 @@ public class SortTester
             numList.add(n);
         }
     }
-    
     public void bubbleSort(){
       for(int i = numList.size() - 1; i > 0; i--){
         for(int j = 0; j<i; j++){
@@ -43,6 +42,8 @@ public class SortTester
       System.out.println("Number of compares: " + comp);
     }
     
+    ////////COMPLETE INSERT SORT FOR HOMEWORK/////////////////////////////////
+    // ( OPEN THE SLIDES)//
     public void insertSort(){
       for(int i = numList.size() - 1; i > 0; i--){
         for(int j = 1; j<i; j--){
@@ -56,7 +57,10 @@ public class SortTester
       System.out.println(numList);
       System.out.println("Number of swaps: " + swap);
       System.out.println("Number of compares: " + comp);
+      
     }
+    
+    //////////////////////////////////////////////////////////////////////////
     public void selectSort(){
     
     }
