@@ -45,7 +45,7 @@ public class SortTester
     ////////COMPLETE INSERT SORT FOR HOMEWORK/////////////////////////////////
     // ( OPEN THE SLIDES)//
     public void insertSort(){
-      for(int i = numList.size() - 1; i > 0; i--){
+      /*for(int i = numList.size() - 1; i > 0; i--){
         for(int j = 1; j<i; j--){
           comp++;  
           if (numList.get(j)>numList.get(j+1)){
@@ -54,14 +54,38 @@ public class SortTester
           }
         }
       }
-      System.out.println(numList);
-      System.out.println("Number of swaps: " + swap);
-      System.out.println("Number of compares: " + comp);
+      */
       
     }
+    public void insertsort(int arr[]) 
+    { 
+        int n = arr.length; 
+        for (int i = 1; i < n; ++i) { 
+            int key = arr[i]; 
+            int j = i - 1; 
+  
+            /* Move elements of arr[0..i-1], that are 
+               greater than key, to one position ahead 
+               of their current position */
+            while (j >= 0 && arr[j] > key) { 
+                arr[j + 1] = arr[j]; 
+                j = j - 1; 
+            } 
+            arr[j + 1] = key; 
+        } 
+    } 
     
     //////////////////////////////////////////////////////////////////////////
     public void selectSort(){
     
     }
+    
+    public void printList(){
+       System.out.println(numList);
+      System.out.println("Number of swaps: " + swap);
+      System.out.println("Number of compares: " + comp);
+      
+        
+    }
+    
 }
