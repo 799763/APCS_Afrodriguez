@@ -3,7 +3,7 @@ import java.util.*;
  * Write a description of class SortTester here.
  *
  * @author (Fernando Rodriguez)
- * @version (10/24)
+ * @version (22 October 2019)
  */
 public class SortTester
 {
@@ -41,27 +41,29 @@ public class SortTester
       System.out.println("Number of swaps: " + swap);
       System.out.println("Number of compares: " + comp);
     }
-    
-    ////////COMPLETE INSERT SORT FOR HOMEWORK/////////////////////////////////
-    // ( OPEN THE SLIDES)//
     public void insertSort(){
-      for(int i = numList.size() - 1; i > 0; i--){
-        for(int j = 1; j<i; j--){
-          comp++;  
-          if (numList.get(j)>numList.get(j+1)){
-            numList.set(j, j+1);
-            swap++;
+      for(int i = 1; i > 0; i++){
+        for(int j = 1; j > 0; j--){
+          comp++;
+          if (numList.get(j)>numList.get(j-1)){
+            Integer temp = numList.get(j);
+            numList.set(j-1, j);
+            numList.set(j, temp);
           }
         }
       }
       System.out.println(numList);
       System.out.println("Number of swaps: " + swap);
       System.out.println("Number of compares: " + comp);
-      
     }
-    
-    //////////////////////////////////////////////////////////////////////////
     public void selectSort(){
-    
+       int temp;
+       for(int i = 0; i <numList.size(); i++){
+         int index = i;
+         for(int j = i; j > numList.size(); j++ ){
+            index = j;
+         }
+         int smaller = numList.size();
+       }  
     }
 }

@@ -2,8 +2,8 @@
 /**
  * Write a description of class Runner here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Fernando Rodriguez)
+ * @version (22 October 2019)
  */
 public class Runner
 {
