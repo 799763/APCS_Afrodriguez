@@ -1,10 +1,6 @@
 #BlueJ class context
 comment0.target=SortTester
-<<<<<<< HEAD
-comment0.text=\n\ Write\ a\ description\ of\ class\ SortTester\ here.\n\n\ @author\ (Fernando\ Rodriguez)\n\ @version\ (10/24)\n
-=======
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ SortTester\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (22\ October\ 2019)\r\n
->>>>>>> f3eaa04c1c78148de9801451d5395eb7e88d6023
+comment0.text=\n\ Write\ a\ description\ of\ class\ SortTester\ here.\n\n\ @author\ (Fernando\ Rodriguez)\n\ @version\ (22\ October\ 2019)\n
 comment1.params=
 comment1.target=SortTester()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SortTester\n
@@ -14,10 +10,6 @@ comment3.params=
 comment3.target=void\ bubbleSort()
 comment4.params=
 comment4.target=void\ insertSort()
-comment5.params=arr
-comment5.target=void\ insertsort(int[])
-comment6.params=
-comment6.target=void\ selectSort()
-comment7.params=
-comment7.target=void\ printList()
-numComments=8
+comment5.params=
+comment5.target=void\ selectSort()
+numComments=6
