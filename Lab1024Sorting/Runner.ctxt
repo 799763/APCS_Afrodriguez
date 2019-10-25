@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.target=Runner
+<<<<<<< HEAD
+comment0.text=\n\ Write\ a\ description\ of\ class\ Runner\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+=======
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Runner\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (22\ October\ 2019)\r\n
+>>>>>>> f3eaa04c1c78148de9801451d5395eb7e88d6023
 comment1.params=
 comment1.target=void\ main()
 numComments=2
