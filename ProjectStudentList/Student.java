@@ -9,7 +9,8 @@ public class Student
 {
     // instance variables - replace the example below with your own
     private int x;
-
+    String Sname = "";
+    Double GPA = 0.0;
     /**
      * Constructor for objects of class Student
      */
@@ -17,6 +18,8 @@ public class Student
     {
         // initialise instance variables
         x = 0;
+        Sname = "";
+        GPA = 0.0;
     }
 
     /**
