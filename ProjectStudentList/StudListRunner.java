@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Scanner;
 /**
  * Write a description of class StudentListRunner here.
  *
@@ -7,5 +8,16 @@ import java.util.*;
  */
 public class StudListRunner
 {
-    StudList StudList = new StudList();
+    StudList studList = new StudList();
+    
+    public static void main(String [] args){
+      System.out.println(StudList.getGreeting());
+      Scanner in = new Scanner (System.in);
+      String statement = in.nextLine();
+      
+      while (!statement.equals("Bye")){
+          System.out.println();
+          statement = in.nextLine();
+      }
+    }
 }

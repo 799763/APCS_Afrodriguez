@@ -7,6 +7,9 @@ import java.util.*;
  */
 public class StudList
 {
+    public static String getGreeting(){
+     return "Hello";
+    }
     // instance variables - replace the example below with your own
     private int x;
     ArrayList<Student> studList = new ArrayList<Student>();
@@ -18,13 +21,24 @@ public class StudList
         // initialise instance variables
         x = 0;
     }
-
     /**
      * An example of a method - replace this comment with your own
      */
     public void addStudent(String fullName)
     {
-        
-        
+          
     }
+    public void deleteStudent(){
+    
+    }
+    public void printStudent(){
+    
+    }
+    public void searchStudent(){
+    
+    }
+    public void clear(){
+    
+    }
+    
 }

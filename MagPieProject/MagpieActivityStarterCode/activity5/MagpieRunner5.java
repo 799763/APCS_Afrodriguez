@@ -1,3 +1,5 @@
+package MagpieActivityStarterCode.activity5;
+
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
