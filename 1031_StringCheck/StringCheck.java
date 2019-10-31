@@ -1,35 +1,41 @@
 import java.util.*;
-import java.util.Scanner;
 /**
  * Write a description of class StringCheck here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Fernando Rodriguez)
+ * @version (31 October 2019)
  */
 public class StringCheck
 {
-    // instance variables
-    String[] y = {"x"};// delete after done (just here to get rid of error sign)
-    ArrayList words = new ArrayList();
-    private int x;
+    // instance variables    
+    private ArrayList<String> words = new ArrayList<String>();
+    private String[] wordList = new String[10];
+    private String Key;
     /**
      * Constructor for objects of class StringCheck
      */
     public StringCheck()
     {
         // initialise instance variables
-        x = 0;
+        String Key = "";
     }
+
     public static void main(){
-     StringCheck string = new StringCheck();
+        StringCheck string = new StringCheck();
     }
+
     public ArrayList<String> wordChecker(String[] str, String Key){
-      words.add(str); 
-      return words;
+        // This method should return an ArrayList
+        ArrayList<String> tempList = new ArrayList<String>();
+        for(int i= 0 ; i <str.length; i++){
+          
+        }
+        return words;
     }
+
     public String[] wordChecker(ArrayList<String> str, String StringKey){
-      
-        
-      return y;// replace y with actual return later
+        // This method should return an Array
+
+        return wordList;
     }
 }
