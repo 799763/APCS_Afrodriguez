@@ -32,8 +32,8 @@ public class StringCheck
       wordList.add("DogCat");      
     }
     public void printList(ArrayList<String> list){
-      for(int i = 0; i < wordList.size(); i++){  
-        System.out.println(wordList.get(i));
+      for(int i = 0; i < wordArray.length; i++){  
+        System.out.println(wordArray[i]);
       }
     }
     /*
