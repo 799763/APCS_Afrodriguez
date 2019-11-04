@@ -1,13 +1,16 @@
 #BlueJ class context
 comment0.target=StringCheck
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ StringCheck\ here.\r\n\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (31\ October\ 2019)\r\n
+comment0.text=\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (31\ October\ 2019)\r\n
 comment1.params=
 comment1.target=StringCheck()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ StringCheck\r\n
 comment2.params=
 comment2.target=void\ main()
-comment3.params=str\ Key
-comment3.target=java.util.ArrayList\ wordChecker(java.lang.String[],\ java.lang.String)
-comment4.params=str\ StringKey
-comment4.target=java.lang.String[]\ wordChecker(java.util.ArrayList,\ java.lang.String)
-numComments=5
+comment3.params=
+comment3.target=void\ loadList()
+comment4.params=list
+comment4.target=void\ printList(java.util.ArrayList)
+comment5.params=str\ k
+comment5.target=java.util.ArrayList\ wordChecker1(java.lang.String[],\ java.lang.String)
+comment5.text=\r\n\ This\ method\ should\ take\ in\ an\ Array\ and\ return\ an\ ArrayList\r\n
+numComments=6
