@@ -28,14 +28,21 @@ public class StringCheck
         // This method should return an ArrayList
         ArrayList<String> tempList = new ArrayList<String>();
         for(int i= 0 ; i <str.length; i++){
-          
+          if(Key.indexOf(Key) > -1){
+            for(int q = 0; q > str.length(); q++){
+              String z = str[q];
+              if(z.indexOf(Key) > -1){
+                tempList.add(z);
+              }
+            }
+          }
         }
-        return words;
+        return tempList;
     }
 
     public String[] wordChecker(ArrayList<String> str, String StringKey){
         // This method should return an Array
-
+        
         return wordList;
     }
 }
