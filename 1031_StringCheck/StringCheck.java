@@ -48,18 +48,16 @@ public class StringCheck
         }
         return tempList;
     }
-     // /*
-      // * This method should take in an ArrayList and return an Array
-      // */
-     // public String[] wordChecker2(ArrayList<String> str, String StringKey){
-         // ArrayList<String> tempList = new ArrayList<String>();
-         // for(int i = 0 ; i < str.size(); i++){
-           // if(Key.indexOf(Key) > -1){          
-               // if(str.get(1).indexOf(Key) > -1){
-                 // tempList.add(i);
-               // }
-           // }
-         // }
-         // return wordList;
-     // }
+    /*
+       * This method should take in an ArrayList and return an Array
+       */
+      public String[] wordChecker2(ArrayList<String> str, String Key){
+          String[] tempList = {};
+          for(int i = 0 ; i < str.size(); i++){                    
+                if(str.get(i).equals(Key)){//If the X spot of str is the-
+                  tempList.add(str.get(i));//Add word to list // -same as Key
+                }
+          }
+          return tempList;
+    }
 }
