@@ -23,7 +23,7 @@ public class StudList
       System.out.println("To print a student record a student type: 3");
       System.out.println("To search for a student type: 4");
       System.out.println("To delete all students type: 5");
-      return "To leave type: Bye";
+      return "To leave type: Quit";
     }
     public void addStudent(String fullName){
       String fName = "";
@@ -55,11 +55,20 @@ public class StudList
         }
       }
       finalName = fName + mName + lName;
+      System.out.print(finalName); // test to see if it worked (Can delete later if it does)
     }
     public void deleteStudent(String lastName){
       for(int i = 0; i < studList.size(); i++){
-        int Spt = studList.get(i); // in progress (change)
-        if(studList.get(i) != lastName){} // in progress (change)
+        int Spot = studList.get(i); // in progress (change)
+        if(studList.get(i).equals(lastName)){
+          
+        
+        } // in progress (change)
       }      
+    }
+    public void clearList(){
+      for(int i = 0; i < studList.size(); i++){// Note To Self: Do I even need the for loop?
+        studList.clear();
+      }    
     }
 }
