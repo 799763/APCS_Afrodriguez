@@ -25,13 +25,22 @@ public class StudList
       System.out.println("To delete all students type: 5");
       return "To leave type: Quit";
     }
-    public void addStudent(String fullName){
+    /*
+     * NOTE TO SELF: Find a way to assign a student ID# and GPA for every name 
+     */
+    public void addStudent(String fullName, int Num, double GPA){
+      System.out.print("Enter a student #, GPA, and Name");
+      //++++++++++++++++++++++++++++++++++
       String fName = "";
       String mName = "";
       String lName = "";
       String finalName = "";
+      int stuNum = 0;
+      double stuGPA = 0.0;
+      //++++++++++++++++++++++++++++++++++
       int Comma = fullName.indexOf(",");
       int Space = fullName.indexOf(" ");
+      //++++++++++++++++++++++++++++++++++
       if(fullName.indexOf(",") != -1){// determines if it is 1/2     
         if(fullName.indexOf(" ") == -1){// determines if it is 1       
           fName = fullName.substring(Comma + 1);
@@ -57,18 +66,35 @@ public class StudList
       finalName = fName + mName + lName;
       System.out.print(finalName); // test to see if it worked (Can delete later if it does)
     }
-    public void deleteStudent(String lastName){
+    public void deleteStudent(String lastName){//Complete (I think)
       for(int i = 0; i < studList.size(); i++){
-        int Spot = studList.get(i); // in progress (change)
+        int Spot = studList.indexOf(i);
         if(studList.get(i).equals(lastName)){
-          
-        
-        } // in progress (change)
+          studList.remove(i);
+        }
       }      
+    }    
+    public void deleteStudent(int stuNum){
+       for(int i = 0; i < studList.size(); i++){
+           //Once found a way to assign students a #, come back to this
+       } 
     }
-    public void clearList(){
-      for(int i = 0; i < studList.size(); i++){// Note To Self: Do I even need the for loop?
+    public void editList(int stuNum){
+      
+    }
+    public void editList(String lName){
+      
+    }
+    public void clearList(){//Complete (I think)
+      for(int i = 0; i < studList.size(); i++){
         studList.clear();
       }    
+    }
+    public void printList(){//Complete (I think)
+      System.out.print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+      System.out.print(" ");
+      System.out.print(studList);
+      System.out.print(" ");
+      System.out.print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
     }
 }
