@@ -14,9 +14,9 @@ public class StudListRunner
           System.out.println();
           statement = Ans.nextLine();
       }
-      while(statement.equals("1")){
+      if(statement != "Quit"){
           if(Ans.nextInt() == 1){
-            
+            StudList.addStudent();
           }
           if(Ans.nextInt() == 2){
            

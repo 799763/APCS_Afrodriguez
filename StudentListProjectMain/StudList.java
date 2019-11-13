@@ -6,9 +6,8 @@ import java.util.*;
 public class StudList
 {
     ArrayList<Student> studList = new ArrayList<Student>();
-    // instance variables - replace the example below with your own
+    Scanner Ans = new Scanner(System.in);
     private int x;
-    
     /**
      * Constructor for objects of class StudList
      */
@@ -63,8 +62,13 @@ public class StudList
           lName = fullName.substring(fullName.lastIndexOf(Space));
         }
       }
-      finalName = fName + mName + lName;
-      System.out.print(finalName); // test to see if it worked (Can delete later if it does)
+      finalName = fName+" "+ mName+" "+lName;
+      for(int i = 0; i < studList.size(); i++){
+         studList[i].stuGPA = 0;
+      }
+      Student.setName(fullName);
+      //stuGPA = Ans.nextDouble();
+      //System.out.print(finalName); // test to see if it worked (Can delete later if it does)
     }
     public void deleteStudent(String lastName){//Complete (I think)
       for(int i = 0; i < studList.size(); i++){
@@ -96,5 +100,17 @@ public class StudList
       System.out.print(studList);
       System.out.print(" ");
       System.out.print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    }
+    public void printStudent(String lastName){
+    
+    }
+    public void printStudent(int stuNumber){
+    
+    }
+    public void SortStudents(String lastName){
+    
+    }
+    public void SortStudents(int stuNumber){
+    
     }
 }
