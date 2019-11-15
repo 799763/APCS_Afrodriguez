@@ -6,17 +6,17 @@ import java.util.Scanner;
 public class StudListRunner
 {
     StudList studList = new StudList();
-    public static void main(String [] args){
+    public void main(String [] args){
       System.out.println(StudList.getGreeting());
       Scanner Ans = new Scanner (System.in);
       String statement = Ans.nextLine();     
       while (!statement.equals("Quit")){
           System.out.println();
-          statement = Ans.nextLine();
+          
       }
       if(statement != "Quit"){
-          if(Ans.nextInt() == 1){
-            StudList.addStudent();
+          if(Ans.nextInt() == 1){//should call "addStudent" method?
+            
           }
           if(Ans.nextInt() == 2){
            
@@ -27,8 +27,8 @@ public class StudListRunner
           if(Ans.nextInt() == 4){
            
           }
-          if(Ans.nextInt() == 5){
-           
+          if(Ans.nextInt() == 5){//should call "clearList" method?
+            StudList.clearList();
           }
        }
     }

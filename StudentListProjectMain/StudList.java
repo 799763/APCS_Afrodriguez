@@ -6,6 +6,7 @@ import java.util.*;
 public class StudList
 {
     ArrayList<Student> studList = new ArrayList<Student>();
+    StudListRunner d = new StudListRunner();
     Scanner Ans = new Scanner(System.in);
     private int x;
     /**
@@ -28,14 +29,12 @@ public class StudList
      * NOTE TO SELF: Find a way to assign a student ID# and GPA for every name 
      */
     public void addStudent(String fullName, int Num, double GPA){
-      System.out.print("Enter a student #, GPA, and Name");
-      //++++++++++++++++++++++++++++++++++
       String fName = "";
       String mName = "";
       String lName = "";
       String finalName = "";
-      int stuNum = 0;
-      double stuGPA = 0.0;
+      
+      
       //++++++++++++++++++++++++++++++++++
       int Comma = fullName.indexOf(",");
       int Space = fullName.indexOf(" ");
@@ -63,13 +62,17 @@ public class StudList
         }
       }
       finalName = fName+" "+ mName+" "+lName;
-      for(int i = 0; i < studList.size(); i++){
-         studList[i].stuGPA = 0;
-      }
       Student.setName(fullName);
-      //stuGPA = Ans.nextDouble();
+      GPA = Ans.nextDouble();
+      
       //System.out.print(finalName); // test to see if it worked (Can delete later if it does)
     }
+    
+    
+    
+    
+    
+    
     public void deleteStudent(String lastName){//Complete (I think)
       for(int i = 0; i < studList.size(); i++){
         int Spot = studList.indexOf(i);
@@ -89,11 +92,20 @@ public class StudList
     public void editList(String lName){
       
     }
+    
+    
+    
+    
+    
     public void clearList(){//Complete (I think)
-      for(int i = 0; i < studList.size(); i++){
-        studList.clear();
-      }    
+      studList.clear();    
+      System.out.print("List cleared");
     }
+    
+    
+    
+    
+    
     public void printList(){//Complete (I think)
       System.out.print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
       System.out.print(" ");
