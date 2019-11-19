@@ -3,4 +3,6 @@ comment0.target=StudListRunner
 comment0.text=\r\n\ @author\ (Fernando\ Rodriguez)\r\n\ @version\ (25\ October\ 2019)\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=
+comment2.target=StudListRunner()
+numComments=3
