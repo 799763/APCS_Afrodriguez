@@ -101,9 +101,9 @@ public class IntArrayWorker
   
   public int getCount(int val){
     int count = 0;
-    for(int c =0; c>matrix.length; c++){
-       for(int r = 0; c>matrix[c].length; r++){
-           if(matrix[c][r] == val){
+    for(int column =0; column<matrix.length; column++){
+       for(int row = 0; row<matrix[column].length; row++){
+           if(matrix[column][row] == val){
              count++;
             }
         }
@@ -111,14 +111,25 @@ public class IntArrayWorker
     return count;
   }
   public int getLargest(){
-   int l = matrix[0][0];
-   for(int row =0; row>matrix.length; row++){
-       for(int col = 0; row>matrix[row].length; col++){
+    int l = matrix[0][0];
+    for(int row =0; row<matrix.length; row++){
+       for(int col = 0; col<matrix[row].length; col++){
            if(matrix[row][col] >= l){
              l = matrix[row][col];
            }
         }
     }  
-   return l;
+    return l;
+  }
+  public int getColTotal(int total){   
+    int l = 0;  
+    for(int col =0; col<matrix.length; col++){
+       for(int row = 0; row<matrix[col].length; row++){
+          if(matrix[col][row]%2 == 0){
+            l++;            
+          }
+       }
+    }   
+    return l;
   }
 }
