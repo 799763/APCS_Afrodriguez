@@ -22,6 +22,6 @@ comment7.params=val
 comment7.target=int\ getCount(int)
 comment8.params=
 comment8.target=int\ getLargest()
-comment9.params=total
+comment9.params=col
 comment9.target=int\ getColTotal(int)
 numComments=10

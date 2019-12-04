@@ -121,15 +121,31 @@ public class IntArrayWorker
     }  
     return l;
   }
-  public int getColTotal(int total){   
-    int l = 0;  
-    for(int col =0; col<matrix.length; col++){
-       for(int row = 0; row<matrix[col].length; row++){
-          if(matrix[col][row]%2 == 0){
-            l++;            
-          }
-       }
-    }   
-    return l;
+  public int getColTotal(int col){   
+    int total = 0;
+    int temp = 0;
+    for(int i = 0; i < matrix.length; i++){
+    if(matrix[col][col]%2 == 1){
+       temp = matrix[col][col];
+       total = temp + total;
+    }
+    }
+    return total;
   }
 }
+
+
+
+
+
+
+
+
+
+// for(int col =0; col<matrix.length; col++){
+       // for(int row = 0; row<matrix[col].length; row++){
+          // if(matrix[col][row]%2 == 0){
+            // T++;            
+          // }
+       // }
+    // }
