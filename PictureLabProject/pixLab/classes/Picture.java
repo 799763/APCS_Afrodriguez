@@ -85,6 +85,46 @@ public class Picture extends SimplePicture
     
   }
   
+  public void grayScale(){
+    int Red = 0;   int tempRed;    int total = 0;
+    int Green = 0; int tempGreen;
+    int Blue = 0;  int tempBlue;
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        tempBlue = pixelObj.getBlue(0);
+        Blue = pixelObj.getBlue() + tempBlue;
+        tempRed = pixelObj.getRed(0);
+        Red = pixelObj.getRed() + tempRed;
+        tempGreen = pixelObj.getGreen(0);
+        Green = pixelObj.getGreen() + tempGreen;
+        total = ((Red + Blue + Green)/ 3);
+        pixelObj.setBlue(total);
+        pixelObj.setRed(total);
+        pixelObj.setGreen(total);
+      }
+    }
+  }
+  public void fixUnderwater(){
+    int Blue = 0;  int tempBlue = 0;
+    int Green = 0; int tempGreen = 0;
+    Pixel[][] pixels = this.getPixels2D();
+    for (Pixel[] rowArray : pixels)
+    {
+      for (Pixel pixelObj : rowArray)
+      {
+        if(Blue < 178){
+          tempBlue = pixelObj.getBlue(0);
+          pixelObj.setBlue(pixelObj.getBlue()- 21);
+          tempGreen = pixelObj.getGreen(0);
+          pixelObj.setGreen(pixelObj.getBlue() - 21);
+        }
+      }
+    }
+    
+  }
   /** Method to set the blue to 0 */
   public void zeroBlue()
   {
@@ -108,10 +148,31 @@ public class Picture extends SimplePicture
       }
     }
     }
-    public void zeroGreen(){
+    public void negate(){
      Pixel[][] pixels = this.getPixels2D();
-    for (Pixel[] rowArray : pixels)
-    {
+     int tempRed;
+     int tempGreen;
+     int tempBlue;
+      for (Pixel[] rowArray : pixels)
+      {
+      for (Pixel pixelObj : rowArray)
+      {
+         tempRed = pixelObj.getRed();
+         pixelObj.setRed(tempRed-255);
+         tempGreen = pixelObj.getGreen();
+         pixelObj.setGreen(tempGreen-255);
+         
+         tempBlue = pixelObj.getBlue();
+         pixelObj.setBlue(tempBlue-255);
+      }
+       }
+    }
+    
+    
+     public void zeroGreen(){
+      Pixel[][] pixels = this.getPixels2D();
+     for (Pixel[] rowArray : pixels)
+     {
       for (Pixel pixelObj : rowArray)
       {
         pixelObj.getGreen();
